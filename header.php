@@ -4,8 +4,8 @@
     <meta charset="utf-8" />
     <title><?php vp_title(); ?></title>
 
-    <link rel="icon" href="<?php bloginfo( 'template_url' ); ?>/images/favicon.ico" />
-    <link rel="shortcut icon" href="<?php bloginfo( 'template_url' ); ?>/images/favicon.ico" />
+    <link rel="icon" href="<?php bloginfo( 'template_url' ); ?>/images/favicon.png" />
+    <link rel="shortcut icon" href="<?php bloginfo( 'template_url' ); ?>/images/favicon.png" />
     <link rel="stylesheet" href="<?php bloginfo( 'stylesheet_url' ); ?>" media="all" />
 
     <?php vp_feed_link(); ?>
@@ -21,7 +21,7 @@
     <header id="header" role="banner">
         <div class="container">
             <hgroup id="site-info">
-                <h1 id="logo"><a href="<?php echo home_url(); ?>" title="<?php bloginfo( 'name' ); ?>"><?php bloginfo( 'name' ); ?></a></h1>
+                <h1 id="logo" class="visuallyhidden"><img href="images/logo/header-logo.png"/><a href="<?php echo home_url(); ?>" title="<?php bloginfo( 'name' ); ?>"><?php bloginfo( 'name' ); ?></a></h1>
                 <?php if ( get_bloginfo( 'description' ) ) : ?>
                 <h2 id="description" class="visuallyhidden"><?php bloginfo( 'description' ); ?></h2>
                 <?php endif; ?>
