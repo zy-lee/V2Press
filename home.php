@@ -3,7 +3,7 @@
         <div id="main">
             <section id="home-topics-box" class="box">
                 <div id="welome" class="heading clearfix">
-                    <p class="f-left"><?php printf( __( 'Welcome to <strong>%s</strong>', 'v2press' ), get_bloginfo( 'name' ) ); ?></p>
+                    <p class="f-left"><?php printf( __( 'Welcome to <strong>%s</strong>', 'v2press' ), get_bloginfo( 'name' ) ); ?><a href="/wordpress/new"> &nbsp;&nbsp;&nbsp;[ new ]+ <a/></p>
                     <?php if ( get_bloginfo( 'description' ) ) : ?>
                     <p class="f-right fade"><?php bloginfo( 'description' ); ?></p>
                     <?php endif; ?>

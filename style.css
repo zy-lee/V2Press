@@ -261,6 +261,10 @@ td { vertical-align: top; }
 #logo a {
   color: #fff;
 }
+#logo img {
+  height: 105px;	
+  width: 350px;	
+}
 
 /* Header Menu */
 #menu {
@@ -286,7 +290,7 @@ td { vertical-align: top; }
 
 /* Search Form */
 #search-form {
-  margin: 11px 10px 0;
+  margin: -40px 700px 0;
   width: 220px;
   float: left;
 }

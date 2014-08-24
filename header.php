@@ -21,7 +21,7 @@
     <header id="header" role="banner">
         <div class="container">
             <hgroup id="site-info">
-                <h1 id="logo" class="visuallyhidden"><img href="images/logo/header-logo.png"/><a href="<?php echo home_url(); ?>" title="<?php bloginfo( 'name' ); ?>"><?php bloginfo( 'name' ); ?></a></h1>
+                <h1 id="logo"><a href="<?php echo home_url(); ?>" title="<?php bloginfo( 'name' ); ?>"><img src="<?php echo bloginfo('stylesheet_directory');?>/images/logo/header-logo.png" alt="<?php bloginfo('name'); ?>" width="350" height="105"/></a></h1>
                 <?php if ( get_bloginfo( 'description' ) ) : ?>
                 <h2 id="description" class="visuallyhidden"><?php bloginfo( 'description' ); ?></h2>
                 <?php endif; ?>
